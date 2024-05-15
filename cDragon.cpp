@@ -35,11 +35,17 @@ void cDragon::CargarEstrategias(cEntrenamiento* nuevaEstrategia)
 
 FormasdeATAQUE cDragon::leer_estrategiaATAQUE()
 {
+	if (Estado_dragon==false){
+		return NINGUNO;
+	}
 	return Estrategias->leerFormaAtaque();
 }
 
 FormasdeDEFENSA cDragon::leer_estrategiaDEFENSA()
 {
+	if (Estado_dragon == false) {
+		return NINGUNA;
+	}
 	return Estrategias->leerFormaDefensa();
 }
 

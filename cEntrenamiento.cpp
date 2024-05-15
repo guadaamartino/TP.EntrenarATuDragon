@@ -27,11 +27,13 @@ void cEntrenamiento::setearFormaAtaque(FormasdeATAQUE formita)
 {
  
     Estrategia_ataque = formita;
+    return;
 }
 
 void cEntrenamiento::setearFormaDefensa(FormasdeDEFENSA formas)
 {
     Estrategia_defensa = formas;
+    return;
 }
 
 cEntrenamiento::~cEntrenamiento()

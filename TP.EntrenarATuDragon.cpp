@@ -5,7 +5,7 @@
 
 int main()
 {
-    cDragon dragoncito1("Veloz", "Dientudo", "Grande", "Negro",1);
+    cDragon dragoncito1("Veloz", "Dientudo", "Grande", "Negro",0);
     cEntrenamiento nuevoentrenamiento;//inicialmente su forma de ataque y defensa es:ninguna
     nuevoentrenamiento.setearFormaAtaque(GARRAS);
     nuevoentrenamiento.setearFormaDefensa(VUELO);
